@@ -1,0 +1,36 @@
+.inoneline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 0;
+}
+.btn {
+    /*for all buttons*/
+    font-weight: bold;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    margin: 0.3rem 1.5rem;
+    border-radius: 15px;
+    background: #D9D9D9;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    /*for all buttons*/
+    background: black;
+    color: white;
+}
+.anotherinfield{
+    /*inputs tag*/
+    outline: none;
+    background: #D9D9D9;
+    margin-right: 1.3rem;
+    border: none;
+    padding: 0.3rem;
+}
+
+.infield::placeholder {
+    color: black;
+    font-style: italic
+}

@@ -1,0 +1,35 @@
+.forpadmar {
+    /*main Hedaing para*/
+    padding: 0.8rem 0.8rem;
+}
+
+.infield {
+    /*inputs tag*/
+    outline: none;
+    background: #D9D9D9;
+    margin-right: 1.3rem;
+    margin-bottom: 1.3rem;
+    border: none;
+    padding: 0.3rem;
+}
+
+.infieldsecond {
+    /*inputs tag*/
+    outline: none;
+    background: #D9D9D9;
+    margin-right: 1.3rem;
+    border: none;
+    padding: 0.3rem;
+    text-align: center;
+    width: 100px;
+}
+
+.infield::placeholder {
+    color: black;
+    font-style: italic
+}
+.action-btn i {
+    font-size: 1.4rem;
+    padding: 0 0.5rem;
+    cursor: pointer;
+}

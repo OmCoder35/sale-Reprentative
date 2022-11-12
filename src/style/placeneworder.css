@@ -1,0 +1,158 @@
+.infield {
+    /*inputs tag*/
+    outline: none;
+    background: #D9D9D9;
+    margin-right: 1.3rem;
+    margin-bottom: 1.3rem;
+    border: none;
+    padding: 0.3rem;
+
+}
+
+.infield::placeholder {
+    color: black;
+    font-style: italic
+}
+
+.selectop {
+    /*select tag*/
+    background: #D9D9D9;
+    margin-right: 1.3rem;
+    margin-bottom: 1.3rem;
+    padding: 0.3rem;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+.selectopanother {
+    /*select tag*/
+    background: #D9D9D9;
+    margin-right: 8.3rem;
+    margin-bottom: 1.3rem;
+    padding: 0.3rem;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+.textareadiv{
+    display: flex;
+}
+.innertextdiv{
+    margin-right: 3rem;
+}
+.textareadiv p{
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+.textarea {
+    background: #D9D9D9;
+    outline: none;
+    border: none;
+    padding: 0.8rem 0.8rem;
+}
+.forpadmar {
+    /*main Hedaing para*/
+    padding: 0.8rem 0.8rem;
+}
+.searchboxdiv{
+    margin: 1rem 0;
+}
+.searchboxdiv input{
+    outline: none;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    padding: 0.35rem 0.35rem;
+    width: 70%;
+}
+
+/*utils*/
+.tab {
+    width: 100%;
+    text-align: center;
+}
+
+.tab th {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid black;
+    
+}
+
+.tab td {
+    padding: 0.8rem 0;
+}
+
+.btn {
+    /*for all buttons*/
+    font-weight: bold;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    margin: 0.3rem 1.5rem;
+    border-radius: 15px;
+    background: #D9D9D9;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    /*for all buttons*/
+    background: black;
+    color: white;
+}
+.btncart {
+    /*for all buttons*/
+    font-weight: bold;
+    outline: none;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    background: #D9D9D9;
+    cursor: pointer;
+    border: none;
+}
+.btncart:hover {
+    /*for all buttons*/
+    background: black;
+    color: white;
+}
+.action-btn i {
+    font-size: 1.4rem;
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+
+/**for all hr tag*/
+.rule {
+    height: 0.5px;
+    background: black;
+}
+
+.inlineAll{
+    display: flex;
+
+}
+.seperate{
+    margin-right: 2rem;
+}
+.seperate p{
+    margin-bottom: 0.8rem;
+}
+.submit-btn {
+    font-weight: bold;
+    outline: none;
+    padding: 0.8rem 5.8rem;
+    margin: 0.3rem 1.5rem;
+    border-radius: 7px;
+    background: #D9D9D9;
+    cursor: pointer;
+    border: none;
+}
+.submit-btn:hover{
+    background:black ;
+    color: white;
+}
+
+.submit-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

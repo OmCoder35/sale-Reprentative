@@ -1,0 +1,54 @@
+/*for CustomerTable*/
+.rightMenu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.8rem 0.5rem;
+}
+
+.icoedit {
+    padding: 0 0.5rem;
+    font-weight: bold;
+    padding: 0.3rem 0.3rem;
+}
+
+.firstDiv {
+    padding: 0.5rem 1rem;
+}
+
+.buttonedit {
+    /*for button div*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    /*for all buttons*/
+    font-weight: bold;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    margin: 0.3rem 1.5rem;
+    border-radius: 15px;
+    background: #D9D9D9;
+    cursor: pointer;
+    border: none;
+}
+
+.action-btn i {
+    font-size: 1.4rem;
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+
+.tab {
+    width: 100%;
+    text-align: center;
+}
+
+.tab th {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab td {
+    padding: 0.8rem 0;
+}
